@@ -12,14 +12,14 @@ dotnet run numberOfNodes TopologyName AlgorithmName
 ```
 
 ## Supported Algorithms
-o gossip
-o push-sum
+* gossip
+* push-sum
 
 ## Supported Network Topologies
-o 2D
-o line
-o full
-o imp3D
+* 2D
+* line
+* full
+* imp3D
 
 ## Convergence Time
 ### Gossip Algorithm
