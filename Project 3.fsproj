@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Project_3</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Utilities.fsx" />
+    <Compile Include="Gossip.fsx" />
+    <Compile Include="Pushsum.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka" Version="1.4.27" />
+    <PackageReference Include="Akka.FSharp" Version="1.4.27" />
+  </ItemGroup>
+
+
+</Project>
